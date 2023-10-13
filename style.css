@@ -195,8 +195,8 @@ ul li :hover{
         display: none;
       }
       .img-mob{
-        display: block;
-        width: 564px;
+        display: flex;
+        width: 593px;
         height: 712px;
       }
       .text-img{
@@ -311,7 +311,7 @@ ul li :hover{
             color: goldenrod;
         }
         .journey{
-            width: 137%;
+            width: 593px;
             margin-top: 650px;
             margin-left: -1px;
             height: 800px;
@@ -395,11 +395,11 @@ ul li :hover{
             position: relative;
             top: 95px;
         }
-        .description{
+        /* .description{
             line-height: 30px;
             margin-top: 40px;
             margin-left: 38px;
-        }
+        } */
         .journey{
             width: 100%;
             margin-top: 250px;
@@ -436,7 +436,7 @@ ul li :hover{
             display: none;
         }
         .description1{
-            display: none;
+            display: block;
         }
        
     }
@@ -448,10 +448,10 @@ ul li :hover{
             width: 334px;
             height: 300px;
             position: relative;
-            top: 125px;
+            /* top: 125px; */
         }
         .right-part{
-            margin-top: -296px;
+            margin-top: -196px;
         }
         .text1{
             display: none;
