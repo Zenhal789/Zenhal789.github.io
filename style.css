@@ -436,7 +436,7 @@ ul li :hover{
             display: none;
         }
         .description1{
-            display: block;
+            display: none;
         }
        
     }
@@ -480,12 +480,10 @@ ul li :hover{
         
         }
         .description{
-            display: none;
+            display: block;
         }
         .description1{
-            line-height: 35px;
-            margin-top: 19px;
-            margin-left: 39px;
+           display: none;
         }
         .section2-right{
             width: 50%;
