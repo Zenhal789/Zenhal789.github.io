@@ -1,0 +1,1176 @@
+body{
+    background-color: whitesmoke;
+}
+nav{
+    background-color: #333;
+}
+.navbar-toggler{
+background-color: white;
+}
+.nav-link{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #d71921;
+}
+#icon{
+    position: relative;
+    top: -1px;
+}
+.fly-better{
+    width: 13%;
+    position: relative;
+    top: -330px;
+    float: right;
+    left: -185px;
+}
+.icc{
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+  }
+  .sponsor{
+    position: absolute;
+    margin-top: -273px;
+    color: white;
+    margin-left: 88px;
+  }
+  .icc-men{
+    position: relative;
+    top: -246px;
+    color: white;
+    left: 82px;
+    font-size: 70px;
+    font-style: italic;
+  }
+  .worldcup{
+    margin-top: -243px;
+    color: white;
+    position: absolute;
+    left: 385px;
+}
+.search{
+    height: 232px;
+    background-color: white;
+    width: 1100px;
+    margin-top: -165px;
+    margin-left: 150px;
+    position: absolute;
+}
+.buttons{
+    display: flex;
+    margin-left: -32px;
+}
+.list{
+    list-style-type: none;
+}
+#btn{
+    background-color: white;
+    width: 275px;
+    height: 57px;
+    border : 1px solid;
+    border-right: 0px solid;
+    font-weight: 600;
+    
+}
+#airplane{    
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 17px;
+}
+#tag{ 
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+#suitcase{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 17px;
+}
+#timer{    
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 70px;
+}
+.button{
+    
+    background-color: white;
+    border: 1px solid;
+    width: 120px;
+    position: relative;
+    left: 5px;
+    font-weight: 600;
+}
+.button1{
+    background-color: white;
+    border: 1px solid;
+    width: 145px;
+    font-weight: 600;
+}
+.advanced-search{
+    display: flex;
+    justify-content: end;
+    font-size: 13px;
+    color: #d71921;
+    margin-right: 12px;
+}
+.airport{
+    width: 410px;
+    height: 54px;
+}
+.continue{
+    width: 200px;
+    height: 55px;
+    background-color: #f10e19;
+    color: white;
+}
+#airport-search{
+    margin-top: 32px;
+    margin-left: 7px;
+}
+.search-mob{
+    display: none;
+}
+.card{
+    background-color: white;
+    width: 1102px;
+    margin-top: 140px;
+    margin-left: 150px;
+    height: 117px;
+}
+.card-list{
+    display: flex;
+    list-style-type: none;
+    gap: 45px;
+    margin-top: 80px;
+}
+#card-name{
+    color: #333;
+}
+#card-name:hover{
+    color: #000;
+}
+.ri-building-4-line{
+    
+    font-size: 40px;
+    top: 16px;
+    position: absolute;
+    left: 33px;
+}
+.ri-car-fill{
+    font-size: 40px;
+    top: 16px;
+    position: absolute;
+    left: 140px;
+}
+.ri-compass-discover-fill{
+    font-size: 40px;
+    top: 16px;
+    position: absolute;
+    left: 281px;
+}
+.ri-sun-fill{
+    font-size: 40px;
+    top: 16px;
+    position: absolute;
+    left: 442px;
+}
+.ri-steering-2-line{
+    font-size: 40px;
+    top: 16px;
+    position: absolute;
+    left: 598px;
+}
+.ri-shake-hands-fill{
+    font-size: 40px;
+    top: 16px;
+    position: absolute;
+    left: 743px;
+}
+.ri-bus-2-fill{
+    font-size: 40px;
+    top: 16px;
+    position: absolute;
+    left: 893px;
+}
+.ri-train-fill{
+    font-size: 40px;
+    top: 16px;
+    position: absolute;
+    left: 1020px;
+}
+#card-mob{
+    display: none;
+}
+.text-destination{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+#destination-card{
+    margin-top: 50px;
+    width: 520px;
+    height: 320px;
+}
+.card1{
+    background-color: white;
+    width: 520px;
+    height: 318px;
+    margin-left: 151px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card2{
+    background-color: white;
+    width: 520px;
+    height: 318px;
+    margin-left: 62px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.card-destination{
+    display: flex;
+}
+.txt{
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+.txt1{
+    line-height: 20px;
+}
+.txt2{
+    line-height: 40px;
+}
+#card-destination{
+    display: flex;
+}
+.card3{
+    background-color: white;
+    width: 520px;
+    height: 318px;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.card4{
+    background-color: white;
+    width: 520px;
+    height: 318px;
+    margin-left: 62px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.dest-btn{    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: -54px;
+}
+#btn1{    
+   width: 13%;
+   height: 34px;
+   background-color: white;
+   border: 1px solid;
+}
+.img-student{
+    width: 100%;
+    filter: brightness(50%);
+}
+.student-offers{
+    justify-content: center;
+    display: flex;
+}
+.special-offer{
+   position: absolute;
+   margin-top: 66px;
+   margin-left: -123px;
+   color: whitesmoke;
+   filter: brightness(90%);
+   letter-spacing: 3px;
+}
+.std{
+    display: flex;
+    justify-content: center;
+}
+#discount{
+    
+    position: absolute;
+    margin-top: -251px;
+    color: white;
+}
+.travels{    
+    position: absolute;
+    margin-top: -187px;
+    margin-left: 389px;
+    color: white;
+}
+.learn-btn{   
+    position: absolute;
+    margin-top: -60px;
+    right: 50%;
+    width: 115px;
+    background-color: white;
+    border: 1px solid;
+}
+
+.text{
+    text-align: center;
+    letter-spacing: 4px;
+    margin-left: -86px;
+}
+.text1{
+    
+    text-align: center;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+.text3{
+    text-align: center;
+    font-size: 12px;
+}
+.text2{
+    text-align: center;
+}
+
+.dubai{
+    width: 530px;
+    height: 530px;
+    background-color: white;    
+    margin-left: 188px;
+    margin-top: -44px;
+
+}
+
+.img-dubai{
+    width: 100%;
+    margin-top: 133px;
+}
+.uae-text{    
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 230px;
+    letter-spacing: 4px;
+}
+
+.dxb-text{
+    margin-top: -449px;
+    margin-left: 229px;
+    font-style: normal;
+}
+.dis{
+    text-decoration: underline 2px #d71921;
+    text-underline-offset: 15px;
+}
+.cabin{
+    display: flex;
+}
+.first-class{
+    height: 260px;
+    width: 260px;
+    background-color: white;    
+    margin-left: 735px;
+    margin-top: -184px;
+}
+.business-class{
+    height: 260px;
+    width: 260px;
+    background-color: white;
+    margin-top: -184px;
+    margin-left: 15px;
+}
+#cabin{
+    display: flex;
+}
+.premium-economy{
+    height: 260px;
+    width: 260px;
+    background-color: white;  
+    margin-left: 736px;
+    margin-top: 12px;
+}
+.economy{
+    height: 260px;
+    width: 260px;
+    background-color: white;  
+    margin-left: 14px;
+    margin-top: 12px;
+}
+.first-img{
+    width: 100%;
+    margin-top: 66px;
+}
+.features{
+    position: absolute;
+    margin-top: -249px;
+    margin-left: 39px;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.firstclass-txt{
+    position: absolute; 
+    margin-top: -214px;
+    margin-left: 42px;
+}
+.rst{
+    text-decoration: underline 2px #d71921;
+    text-underline-offset: 15px;
+}
+.Ptext{
+    position: absolute; 
+    margin-top: -214px;
+    margin-left: 37px; 
+}
+.about-img{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.about-img li{
+list-style-type: none;
+}
+.img-round{
+    border-radius: 153px;
+    height: 170px;
+    transition: transform 0.2s;
+}
+.about-text{
+    display: flex;
+    gap: 160px;
+    justify-content: center;
+}
+.about-text li{
+    list-style-type: none;
+}
+.about-text li a{
+    color: #000;
+}
+.bc{
+    margin-left: 27px;
+}
+.about-text  #bc:hover{
+color: black;
+}
+.img-round:hover{
+    transform: scale(1.2);
+}
+.company{
+    width: 100%;
+    height: 1150px;
+    background-color: #333;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    color: #b7abab;
+    text-decoration: none;
+}
+ul li a:hover{
+color: #b7abab;
+}
+.sub-company{
+    display: flex;    
+    gap: 140px;
+    margin-left: 144px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.line{
+    width: 76%;
+    right: 12%;
+    position: absolute;
+    color: rgb(184 142 142);
+}
+#sub-company{
+    display: flex;    
+    gap: 71px;
+    margin-left: 144px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.experience{
+    margin-left: 35px;
+}
+.subscribe{
+    display: flex;
+    margin-left: 140px;
+    font-size: 14px;
+    gap: 30px;
+}
+.sub-btn{    
+    height: 38px;
+    width: 100px;
+    margin-left: 41px;
+    margin-top: 12px;
+    color: white;
+    background-color: #333;
+    border: 1px solid;
+}
+.sub-btn:hover{
+    color: #333;
+    background-color: white;
+}
+.details:hover{
+    text-decoration: none;
+}
+.uline{
+    text-decoration: underline;
+}
+.gplay{    
+    margin-left: 143px;
+    margin-top: -40px;
+}
+.icons{
+    display: flex;
+    margin-top: 26px;
+}
+#fb{    
+    color: white;
+    font-size: 35px;
+    margin-left: 34px;
+    margin-top: 11px;
+}
+#twitter{    
+    color: white;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+#yt{    
+    color: white;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+#linkedn{    
+    color: white;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+#insta{    
+    color: white;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.awards-section{
+    margin-left: 165px;
+    display: flex;
+    gap: 155px;
+}
+.line1{
+    width: 70%;
+    right: 19%;
+    position: absolute;
+    color: rgb(184 142 142);
+}
+.lastsection{
+    display: flex;
+    margin-left: 140px;
+    font-size: small;
+    gap: 17px;
+}
+.copyright{
+    margin-left: 170px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+.emirates-logo{    
+    width: 100px;
+    float: right;
+    margin-left: 1200px;
+    margin-top: -100px;
+    position: absolute;
+}
+.logo{    
+    background-color: #d71921;
+    width: 98px;
+    margin-left: 1200px;
+    margin-top: -104px;
+    height: 130px;
+}
+.company-mob{
+    display: none;
+}
+/* Responsive code for mobile devices */
+/* Target devices with a maximum width of 767px */
+@media (max-width: 767px) {
+    .icc{
+        object-fit: cover;
+        width: 100%;
+        height: 375px;
+    }
+.fly-better{
+    width: 24%;
+    position: relative;
+    top: -353px;
+    left: -43px;
+}
+.sponsor{
+    position: absolute;
+    margin-top: -313px;
+    color: white;
+    margin-left: 9px;
+  }
+  .icc-men{
+    position: relative;
+    top: -276px;
+    color: white;
+    left: 8px;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 700;
+  }
+  .worldcup{
+    margin-top: -268px;
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+.search{
+    display: none;
+}
+.search-mob{
+    display: block;
+}
+.search-mob{
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 20px;
+    width: 360px;
+    height: 156px;
+    background-color: white;
+}
+.buttons-mob{
+    display: flex;
+    list-style-type: none;
+    font-size: 13px;
+}
+#search-flight{
+    background-color: white;
+    border: 1px solid;
+    height: 81px;
+    margin-left: -32px;
+    width: 164px;
+}
+#checkin{
+    height: 81px;
+    background-color: white;
+    width: 197px;
+    border: 1px solid;
+
+
+}
+#whatsin-flight{
+    background-color: white;
+    border: 1px solid;
+    height: 80px;
+    margin-left: -32px;
+    width: 164px;
+    margin-top: -16px;
+}
+#flight-status{
+    background-color: white;
+    width: 197px;
+    height: 80px;
+    margin-top: -16px;
+    border: 1px solid;
+}
+#airplane1{
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 10px;
+}
+#tag1{ 
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+#suitcase1{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -4px;
+}
+#timer1{    
+    position: absolute;
+    margin-top: -4px;
+    margin-left: 90px;
+}
+#card{
+display: none;
+}
+#card-mob{
+    display: block;
+}
+h5{
+    text-align: center;
+}
+.carousel-item img {
+margin:10px;
+}
+.block4-wrap {
+display:flex
+}
+.block4 {
+flex:1 0 25%;
+background:whitesmoke;
+color:black;
+height: 240px;
+}
+#car-rentals{
+height: 168px;
+}
+.my-captions{margin:10px;padding-bottom:3em}
+
+/* fix width and make user scroll with mouse/touch to see the items */
+@media screen and (max-width:768px){
+.block4{max-width:280px;flex:1 0 100%;overflow:visible}  
+.carousel{overflow:hidden;}
+.carousel-inner{overflow-x:visible;}
+}
+@media screen and (max-width:480px){
+.block4{max-width:240px;} 
+}
+
+.card-destination{
+    display: block;
+}
+#card-destination{
+    display: block;
+}
+.card1{
+    width: 357px;
+    margin-left: 20px;
+    height: 276px;
+}
+
+.card2{  
+    width: 357px;
+    margin-left: 20px;
+    height: 276px;
+}
+.card3{    
+    width: 357px;
+    margin-left: 20px;
+    height: 276px;
+}
+.card4{  
+    width: 357px;
+    margin-left: 20px;
+    height: 276px;
+}
+#btn1{
+    width: 40%;
+    margin-left: 40px;
+}
+.img-student{
+    width: 88%;
+    height: 300px;
+    object-fit: cover;
+    margin-left: -3px;
+}
+.special-offer{
+   margin-top: 18px;
+   margin-left: 2px;
+}
+#discount{
+    margin-left: 31px;
+    font-size: 28px;
+}
+.travels{
+    margin-left: 50px;
+    margin-top: -153px;
+    font-size: smaller;
+
+}
+.learn-btn{
+    right: 9%;
+    width: 84%;
+    height: 32px;
+    margin-top: -48px;
+}
+.text{
+    margin-left: -30px;
+}
+.text2{
+position: relative;
+top: 21px;
+line-height: 30px;
+}
+.trip{
+    margin-left: 23px;
+}
+.dubai{
+    margin-left: 20px;
+    width: 90%;
+    height: 395px;
+}
+.uae-text{
+    margin-left: 80px;
+    margin-top: -380px;
+}
+.dxb-text{
+    margin-top: -310px;
+    margin-left: 90px;
+}
+.cabin{
+    display: block;
+}
+.first-class{
+        margin-left: 23px;
+        margin-top: 280px;
+        width: 89%;
+}
+.business-class{
+    margin-left: 23px;
+    margin-top: 115px;
+    width: 89%;
+}
+#cabin{
+    display: block;
+}
+.premium-economy{
+    margin-left: 23px;
+    margin-top: 115px;
+    width: 89%;
+}
+.economy{
+    margin-left: 23px;
+    margin-top: 115px;
+    width: 89%;
+}
+.about-img, .about-text{
+    display: none;
+}
+.img-round1{
+    height: 180px;
+    border-radius: 50%;
+    
+}
+#block4-wrap{
+    gap: 25px;
+}
+.company{
+    display: none;
+}
+.company-mob{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: #333;
+}
+.about-btn{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    font-size: large;
+    height: 50px;
+}
+.help-btn{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    font-size: large;
+    height: 50px;
+}
+.book-btn{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    font-size: large;
+    height: 50px;
+}
+.manage-btn{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    font-size: large;
+    height: 50px;
+}
+.before-btn{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    font-size: large;
+    height: 50px;
+}
+.where-btn{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    font-size: large;
+    height: 50px;
+}
+.exp-btn{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    font-size: large;
+    height: 50px;
+}
+.loyalty-btn{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    font-size: large;
+    height: 50px;
+}
+#exp{
+    margin-left: -1px;
+}
+.arrow-icon {
+    float: right;
+    margin-left: 5px; 
+    font-size: 16px; 
+  }
+  .about-us, .help, .book, .manage, .before, .where, .experience, .loyalty {
+    display: none;
+  }
+ #offer{
+    margin-left: -23px;
+ }
+ .btn1{
+    display: flex;
+    justify-content: center;
+    margin-left: -70px;
+}
+#app{
+    margin-left: -23px;
+}
+#apple{
+    margin-top: -38px;
+}
+#icons{
+    margin-left: -23px;
+    margin-top: -26px;
+}
+#awards-section{
+    display: block;
+}
+#copyright{
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    margin-left: 8px;
+}
+.logo1{
+    background-color: #d71921;
+    width: 67px;
+    margin-right: 1px;
+    margin-top: -70px;
+    height: 94px;
+    float: right;
+}
+.emirates-logo1{
+    width: 70px;
+    float: right;
+    margin-left: 321px;
+    margin-top: -60px;
+    position: absolute;
+    right: 2px;
+}
+}
+
+@media screen and (min-width: 970px) and (max-width: 1024px) {
+    .search{
+            margin-left: 2px;
+            width: 100%;
+            height: 284px;
+    }
+    .continue{
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    #list{
+        width: 218px;
+    }
+    #list1{
+        width: 250px;
+    }
+    #list2{
+        width: 229px;
+    }
+    .fly-better{
+        margin-top: 119px;
+        margin-right: -97px;
+    }
+    .sponsor{
+        margin-top: -234px;
+    }
+    .icc-men{
+        top: -210px;
+        font-size: 58px;
+    }
+    .worldcup{
+        margin-top: -210px;
+        left: 308px;
+    }
+    .card{
+        width:975px;
+        margin-left: 1px;
+    }
+    .card-list{
+        gap: 25px;
+    }
+    .ri-car-fill{
+        margin-left: -13px;
+    }
+    .ri-compass-discover-fill{
+        margin-left: -35px;
+    }
+    .ri-sun-fill{
+        margin-left: -58px;
+    }
+    .ri-steering-2-line{
+        margin-left: -70px;
+    }
+    .ri-shake-hands-fill{
+        margin-left: -91px;
+    }
+    .ri-bus-2-fill{
+        margin-left: -110px;
+    }
+    .ri-train-fill{
+        margin-left: -135px;
+    }
+    #discount{
+        margin-top: -156px;
+    }
+    .travels{
+        margin-top: -103px;
+        margin-left: 163px;
+    }
+    .features{
+        position: absolute;
+        margin-top: -245px;
+        margin-left: 20px;
+        letter-spacing: 4px;
+        font-size: 12px;
+    }
+    .firstclass-txt{
+        position: absolute;
+        margin-top: -210px;
+        margin-left: 33px;
+        font-size: 20px;
+    }
+    .Ptext{
+        position: absolute;
+        margin-top: -206px;
+        margin-left: 14px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .first-img{
+        margin-top: 177px;
+    }
+    .company{
+        height: auto;
+    }
+    .sub-company{
+        display: flex;
+        gap: 99px;
+        margin-left: -20px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    #sub-company {
+        display: flex;
+        gap: 42px;
+        margin-left: -20px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .subscribe {
+        display: flex;
+        margin-left: -18px;
+        font-size: 14px;
+    }
+    .awards-section {
+        margin-left: 13px;
+        display: flex;
+        gap: 110px;
+    }
+    .lastsection {
+        display: flex;
+        margin-left: -28px;
+        font-size: x-small;
+        gap: 17px;
+    }
+    .copyright {
+        margin-left: 5px;
+        color: white;
+        font-size: small;
+        font-weight: bold;
+    }
+    .logo {
+        background-color: #d71921;
+        width: 98px;
+        margin-left: 872px;
+        margin-top: -104px;
+        height: 130px;
+    }
+    .emirates-logo {
+        width: 100px;
+        float: right;
+        margin-left: 869px;
+        margin-top: -100px;
+        position: absolute;
+    }
+    .dubai {
+        width: 530px;
+        height: 530px;
+        background-color: white;
+        margin-left: 23px;
+        margin-top: -44px;
+    }
+    .uae-text {
+        position: absolute;
+        margin-top: -500px;
+        margin-left: 65px;
+        letter-spacing: 4px;
+    }
+    .dxb-text {
+        margin-top: -449px;
+        margin-left: 68px;
+        font-style: normal;
+    }
+    .cabin{
+        margin-left: -167px;
+
+    }
+    .first-img {
+        margin-top: 110px;
+    }
+    #cabin{
+        margin-left: -166px;
+    }
+    .destination{
+        margin-left: -132px;
+    }
+    #departure{
+        margin-left: 20px;
+        border: 1px solid;
+    }
+    #arrival{
+        margin-left: 30px;
+        border: 1px solid;
+    }
+}

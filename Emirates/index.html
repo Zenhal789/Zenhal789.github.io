@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emirates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="/remixicon/remixicon.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- -----------------------------------------------Navbar------------------------------------------------------------ -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Emirates_logo.svg" width="10%" height="50px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 14px;">
+              <li class="nav-item">
+                <a class="nav-link" href="#">BOOK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MANAGE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">EXPERIENCE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">WHERE TO FLY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LOYALTY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">HELP</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 14px;">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="ri-global-line"></i>&ensp;IN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="ri-search-line"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="ri-account-circle-fill"></i>&ensp;LOGIN</a>
+                      </li>
+                    </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- ----------------------------------------------Image banner------------------------------------------------------- -->
+
+<div>
+    <img src="https://c.ekstatic.net/ecl/sponsorships/sport-cricket/cricket-player-on-cricket-field-hp-w1920x480.jpg?h=2OlGjpyl_6KCxf-kaoILQA" width="100%" class="icc">
+    <img src="https://c.ekstatic.net/ecl/logos/emirates/emirates-fly-better-white.svg?h=ASXr1bEvRLq6igZoljExYw" class="fly-better">
+    <h3 class="sponsor">Proud Sponsors of</h3><span class="icc-men">ICC MEN'S CRICKET</span><h3 class="worldcup">World Cup India 2023</h3>
+</div>
+
+<!-- --------------------------------------------------Search flights---------------------------------------------------------------------- -->
+
+<div class="search">
+    <ul class="buttons">
+        <li class="list" id="list">
+          <i class="ri-flight-takeoff-line" id="airplane"></i>
+          <input type="submit" value="Search Flights" id="btn"></li>
+        <li class="list" id="list1">
+          <i class="ri-price-tag-3-fill" id="tag"></i>
+          <input type="submit" value="Manage Booking/ Check in" id="btn"></li>
+        <li class="list" id="list2">
+          <i class="ri-suitcase-line" id="suitcase"></i>
+          <input type="submit" value="What's on your flight" id="btn"></li>
+        <li class="list" id="list3">
+          <i class="ri-timer-fill" id="timer"></i>
+          <input type="submit" value="Flight Status" id="btn"></li>
+    </ul>
+    <input type="submit" value="Flight" class="button">
+    <input type="submit" value="Flight+Hotel" class="button1">
+    <a href="" class="advanced-search">Advanced search: multi-city, promo codes, partner airlines</a>
+<div id="airport-search">
+    <input type="text" placeholder="&nbsp;Departure Airport" class="airport" id="departure">
+    <input type="text" placeholder="&nbsp;Arrival Airport" class="airport" id="arrival">
+    <input type="submit" value="Continue" class="continue">
+</div>
+</div>
+<!-- -----------------------------------------Search flight Mobile view Responsive------------------------------------------------ -->
+<div class="search-mob">
+<ul class="buttons-mob">
+    <li>
+        <i class="ri-flight-takeoff-line" id="airplane1"></i>
+        <input type="button" value="Search Flights" id="search-flight"></li>
+    <li>
+      <i class="ri-price-tag-3-fill" id="tag1"></i>
+      <input type="button" value="Manage Booking/ Check in" id="checkin"></li>
+</ul>
+<ul class="buttons-mob">
+    <li>
+      <i class="ri-suitcase-line" id="suitcase1"></i>
+      <input type="button" value="What's on your Flight" id="whatsin-flight"></li>
+    <li>
+      <i class="ri-timer-fill" id="timer1"></i>
+      <input type="button" value="Flight Status" id="flight-status"></li>
+
+</ul>
+</div>
+<!-- ---------------------------------------------------Card section-------------------------------------------------------------- -->
+<div class="card" id="card">
+    <ul class="card-list">
+        <li><a href=""id="card-name"><i class="ri-building-4-line"></i>Hotels</a></li>
+        <li><a href=""id="card-name"><i class="ri-car-fill"></i>Car Rentals</a></li>
+        <li><a href=""id="card-name"><i class="ri-compass-discover-fill"></i>Tours & Activities</a></li>
+        <li><a href=""id="card-name"><i class="ri-sun-fill"></i>Book a Holiday</a></li>
+        <li><a href=""id="card-name"><i class="ri-steering-2-line"></i>Chauffeur-Drive</a></li>
+        <li><a href=""id="card-name"><i class="ri-shake-hands-fill"></i>Meet & Greet</a></li>
+        <li><a href=""id="card-name"><i class="ri-bus-2-fill"></i>Airport Transfers</a></li>
+        <li><a href=""id="card-name"><i class="ri-train-fill"></i>Eurail</a></li>
+
+    </ul>
+</div>
+  <!------------------------------------------------------card section mobile-----------------------------------------------------  -->
+
+  <div class="container-fluid" id="card-mob">
+    <div class="row flex-xl-nowrap">
+      <div class="col-12">
+        <div class="bd-example">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="block4-wrap">
+                  <div class="block4"><img class="d-block w-100" src="https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <div class="my-captions">
+                      <h5>Hotels</h5>
+                    </div>
+                  </div>
+                  <div class="block4"><img class="d-block w-100" id="car-rentals" src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <div class="my-captions">
+                      <h5>Car rentals</h5>
+                    </div>
+                  </div>
+                  <div class="block4"><img class="d-block w-100" id="car-rentals" src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <div class="my-captions">
+                      <h5>Tours & Activities</h5>
+                    </div>
+                  </div>
+                  <div class="block4"><img class="d-block w-100" id="car-rentals" src="https://images.pexels.com/photos/2373201/pexels-photo-2373201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <div class="my-captions">
+                      <h5>Book a Holiday</h5>
+                    </div>
+                  </div>
+                  <div class="block4"><img class="d-block w-100" id="car-rentals" src="https://images.pexels.com/photos/9520199/pexels-photo-9520199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <div class="my-captions">
+                      <h5>Chauffeur-Drive</h5>
+                    </div>
+                  </div>
+                  <div class="block4"><img class="d-block w-100" id="car-rentals" src="https://images.pexels.com/photos/4340037/pexels-photo-4340037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                    <div class="my-captions">
+                      <h5>Meet & Greet</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ---------------------------------------------------------Destinations Section------------------------------------------------ -->
+  <div class="destination">
+    <h5 class="text-destination">Featured destinations from <b>&nbsp;India</b></h5>
+     <div class="card-destination">
+        <div class="card1">
+            <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/BCN/810x270.jpg"width="100%">
+            <p align="center" class="txt">SPAIN</p>
+            <h5 align="center"class="txt1">Barcelona</h5>
+            <h6 align="center"class="txt2">Discover for yourself</h6>
+        </div>
+        <div class="card2">
+            <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/DXB/810x270.jpg" width="100%">
+            <p align="center" class="txt">UNITED ARAB EMIRATES</p>
+            <h5 align="center"class="txt1">Dubai</h5>
+            <h6 align="center"class="txt2">Discover for yourself</h6>
+        </div>
+     </div>
+     <div id="card-destination">
+        <div class="card3">
+            <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/ROM/810x270.jpg" width="100%">
+            <p align="center" class="txt">ITALY</p>
+            <h5 align="center"class="txt1">Rome</h5>
+            <h6 align="center"class="txt2">Discover for yourself</h6>
+        </div>
+        <div class="card4">
+            <img src="https://c.ekstatic.net/shared/images/destination/v1/airports/LON/810x270.jpg" width="100%">
+            <p align="center" class="txt">UNITED KINGDOM</p>
+            <h5 align="center"class="txt1">London</h5>
+            <h6 align="center"class="txt2">Discover for yourself</h6>
+        </div>
+     </div>
+      </div>
+      <div class="dest-btn">
+        <input type="button" value="More Destinations"id="btn1"><br><br><br>
+
+      </div>
+
+  <!-- ------------------------------------------Student Offers section ------------------------------------------------------------->
+  
+<div class="student-offers">
+<img src="https://c.ekstatic.net/ecl/people/indoors/multiracial-students-walking-though-university-hall-w1920x480.jpg?h=cBV804tU6xA1w0McxcT2rQ" class="img-student">
+<p class="special-offer">SPECIAL OFFER FOR STUDENTS</p>
+</div>
+<div class="std">
+    <h1 id="discount">Student's enjoy extras and discounts with us</h1>
+</div>
+<p class="travels">Book your travels with Emirates to enjoy special discounts,extra baggage allowance and more</p>
+<input type="button"value="Learn more" class="learn-btn"><br><br>
+
+<!-- ---------------------------------------------Incredible journey section-------------------------------------------------- -->
+
+<div class="emirates">
+    <p class="text">FLYING WITH EMIRATES</p>
+    <h1 class="text1">Make it an incredible journey</h1>
+    <p class="text2">Explore the Emirates experience and plan an <span class="trip">unforgettable trip beyond your flight.</span></p>
+</div><br><br><br><br>
+
+<!-- --------------------------------------------discover section------------------------------------------------------------- -->
+
+<div class="discover">
+    <div class="dubai">
+        <img src="https://c.ekstatic.net/ecl/destinations/middle-east/united-arab-emirates/skyline-view-from-la-mer-dubai-d800x600.jpg?h=1lLEz9pkMAA61cgn39sKGQ"  class="img-dubai">
+    </div>
+</div>
+<p class="uae-text">DUBAI AND THE UAE</p>
+<h1 class="dxb-text"><span class="dis">Dis</span>cover Dubai</h1>
+<br><br>
+<div class="cabin">
+    <div class="first-class">
+        <img src="https://c.ekstatic.net/ecl/food/first-class-dessert-w800x600.jpg?h=Wxf9CC7WhFAck7s5_QF1oA" class="first-img">
+        <p class="features">CABIN FEATURES</p>
+        <h4 class="firstclass-txt">Fi<span class="rst">rst Cla</span>ss</h4>
+    </div>
+    <div class="business-class">
+        <img src="https://c.ekstatic.net/ecl/food/business-class-meal-w800x600.jpg?h=MvOq0t5vAseWLn6fdsIGVg" class="first-img">
+        <p class="features">CABIN FEATURES</p>
+        <h4 class="firstclass-txt">Bus<span class="rst">iness C</span>lass</h4>
+    </div>
+</div>
+
+<div id="cabin">
+    <div class="premium-economy">
+        <img src="https://c.ekstatic.net/ecl/food/premium-economy-menu-w800x600.jpg?h=nUi11H3iz4bSSPJ0xdtGxQ" class="first-img">
+        <p class="features">CABIN FEATURES</p>
+       <h4 class="Ptext">Premi<span class="rst">um Econ</span>omy</h4>
+    </div>
+    <div class="economy">
+        <img src="https://c.ekstatic.net/ecl/food/economy-class-chocolate-dessert-w800x600.jpg?h=8IPeHQHGlgz6DFNMUYc9bQ" class="first-img">
+        <p class="features">CABIN FEATURES</p>
+        <h4 class="firstclass-txt">Eco<span class="rst">nomy C</span>lass</h4>
+    </div>
+</div>
+<!-- -----------------------------------------------About section----------------------------------------------------------------------- -->
+<br><br><br><br><br>
+<div class="about-section">
+    <h2 align="center">About us</h2><br>
+    <p align="center">Learn more about our history, our business and sustainability initiatives</p>
+</div><br>
+
+<ul class="about-img">
+    <li><img src="https://c.ekstatic.net/ecl/agent-portal/a380-sky-view-w300x300.jpg?h=sBnzkrJJvKVp6g8XwpcDoA" class="img-round"></li>
+    <li><img src="https://c.ekstatic.net/ecl/destinations/africa/south-africa/sunlight-baths-the-blyde-river-canyon-w300x300.jpg?h=Dy3u7WDNZeGj8figwrr98w"class="img-round"></li>
+    <li><img src="https://c.ekstatic.net/ecl/emirates-staff/ground-staff/emirates-group-staff-group-photo-m300x300.jpg?h=uwsAa20y9RhQZSteKnIqmw"class="img-round"></li>
+    <li><img src="https://c.ekstatic.net/ecl/about-us/family-planting-tree-w300x300.jpg?h=ar8-hQpf-unRHqmjJ_gsRA"class="img-round"></li>
+</ul>
+
+<ul class="about-text">
+    <li class="bc"><a href="" id="bc">Our Business</a></li>
+    <li><a href="" id="bc">Our planet</a></li>
+    <li ><a href=""id="bc">Our people</a></li>
+    <li><a href="" id="bc">Our communities</a></li>
+
+</ul>
+<!-- --------------------------------------------------About mobile section------------------------------------------------------------- -->
+<div class="container-fluid" id="card-mob">
+    <div class="row flex-xl-nowrap">
+      <div class="col-12">
+        <div class="bd-example">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="block4-wrap" id="block4-wrap">
+                  <div class="block4"id="block4"><img class="d-block w-100 img-round1" src="https://c.ekstatic.net/ecl/agent-portal/a380-sky-view-w300x300.jpg?h=sBnzkrJJvKVp6g8XwpcDoA">
+                    <div class="my-captions">
+                      <h5>Our Business</h5>
+                    </div>
+                  </div>
+                  <div class="block4"id="block4"><img class="d-block w-100 img-round1" src="https://c.ekstatic.net/ecl/destinations/africa/south-africa/sunlight-baths-the-blyde-river-canyon-w300x300.jpg?h=Dy3u7WDNZeGj8figwrr98w">
+                    <div class="my-captions">
+                      <h5>Our planet</h5>
+                    </div>
+                  </div>
+                  <div class="block4"id="block4"><img class="d-block w-100 img-round1" src="https://c.ekstatic.net/ecl/emirates-staff/ground-staff/emirates-group-staff-group-photo-m300x300.jpg?h=uwsAa20y9RhQZSteKnIqmw">
+                    <div class="my-captions">
+                      <h5>Our people</h5>
+                    </div>
+                  </div>
+                  <div class="block4"id="block4"><img class="d-block w-100 img-round1" src="https://c.ekstatic.net/ecl/about-us/family-planting-tree-w300x300.jpg?h=ar8-hQpf-unRHqmjJ_gsRA">
+                    <div class="my-captions">
+                      <h5>Our Communities</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+<!-- -------------------------------------------------------Company details section------------------------------------------------------- -->
+<div class="company">
+<div class="sub-company">
+  <div class="aboutus">
+    <ul><br><br><br>
+      <li><h5 style="color: white;">About Us</h5></li>
+      <li><a href="">About us</a></li>
+      <li><a href="">Careers</a></li>
+      <li><a href="">Media Centre</a></li>
+      <li><a href="">Our planet</a></li>
+      <li><a href="">Our people</a></li>
+      <li><a href="">Our Communities</a></li>
+    </ul>
+  </div>
+  <div class="help">
+    <ul><br><br><br>
+      <li><h5 style="color: white;">Help</h5></li>
+      <li><a href="">Help and contact</a></li>
+      <li><a href="">Travel Updates</a></li>
+      <li><a href="">Special Assistance</a></li>
+      <li><a href="">Frequently Asked Questions</a></li>
+    </ul>
+  </div>
+  <div class="book">
+    <ul><br><br><br>
+      <li><h5 style="color: white;">Book</h5></li>
+      <li><a href="">Book Flights</a></li>
+      <li><a href="">Travel Services</a></li>
+      <li><a href="">Transportation </a></li>
+      <li><a href="">Planning your trip</a></li>
+      <li><a href="">Search for flights</a></li>
+    </ul>
+  </div>
+  <div class="manage">
+    <ul><br><br><br>
+      <li><h5 style="color: white;">Manage</h5></li>
+      <li><a href="">Check-in </a></li>
+      <li><a href="">Manage your Booking</a></li>
+      <li><a href="">Chauffeur Drive</a></li>
+      <li><a href="">Flight Status </a></li>
+    </ul>
+  </div>
+</div>
+<hr class="line">
+<br><br>
+<div id="sub-company">
+  <div class="beforefly">
+    <ul>
+      <li><h5 style="color: white;">Before you Fly</h5></li>
+      <li><a href="">Baggage</a></li>
+      <li><a href="">Visa and Passport information</a></li>
+      <li><a href="">Health</a></li>
+      <li><a href="">Travel information </a></li>
+      <li><a href="">Dubai international </a></li>
+      <li><a href="">To and From the Airport</a></li>
+      <li><a href="">Rules and Notices</a></li>
+    </ul>
+  </div>
+  <div class="wherefly">
+    <ul>
+      <li><h5 style="color: white;">Where we Fly</h5></li>
+      <li><a href="">Route map</a></li>
+      <li><a href="">Africa</a></li>
+      <li><a href="">Asia and Pacific</a></li>
+      <li><a href="">Europe </a></li>
+      <li><a href="">The Americas </a></li>
+      <li><a href="">The Middle East</a></li>
+      <li><a href="">Flights to all countries/territories</a></li>
+    </ul>
+  </div>
+  <div class="experience">
+    <ul>
+      <li><h5 style="color: white;">Experience</h5></li>
+      <li><a href="">Cabin Features</a></li>
+      <li><a href="">Shop Emirates</a></li>
+      <li><a href="">What's on your Flight</a></li>
+      <li><a href="">In-flight Entertainment</a></li>
+      <li><a href="">Dining</a></li>
+      <li><a href="">Our lounges</a></li>
+    </ul>
+  </div>
+  <div class="experience">
+    <ul>
+      <li><h5 style="color: white;">Loyalty</h5></li>
+      <li><a href="">Log in to Emirates Skywards</a></li>
+      <li><a href="">Join Emirates Skywards</a></li>
+      <li><a href="">Our Partners</a></li>
+      <li><a href="">Business Reward Benefits</a></li>
+      <li><a href="">Register your Company</a></li>
+      <li><a href="">Emirates Skywards Programme Rules</a></li>
+    </ul>
+  </div>
+</div>
+<hr class="line">
+<br><br>
+<div class="subscribe">
+  <div class="offer">
+    <ul>
+      <li><h6 style="color: white;">Subscribe to our Special Offers</h6></li>
+      <li><a href="">Save with our latest fares and offers.</a></li>
+      <li><a href="">Unsubscribe or change your preferences</a></li><br>
+      <li><input type="text"placeholder="&nbsp; Email address" style="width:215px;height:40px;"></li>
+      <li><input type="button" value="Subscribe" class="sub-btn"></li> <br>
+      <li><a href="" class="details">For details on how we use your information, please see our <br> <span class="uline">privacy policy.</span></a></li>  
+    </ul>
+  </div>
+  <div class="Application">
+    <ul>
+      <li><h6  style="color: white;">Emirates App</h6></li>
+      <li><a href="">Book and manage your flights on the go.</a></li><br><br>
+      <li><a href=""><img src="https://c.ekstatic.net/ecl/logos/appstore/apple-en.svg?h=FJJxsKPmgHqgUIyQclfJDQ"></a></li>
+      <li class="gplay"><a href=""><img src="https://c.ekstatic.net/ecl/logos/appstore/google-en.svg?h=cmeirryR6eVLHItt4HLLeQ"></a></li>
+    </ul>
+  </div>
+  <div class="connect">
+    <ul>
+      <li><h6  style="color: white;">Connect with us</h6></li>
+      <li><a href="">Share your Emirates experience.</a></li>
+    </ul>
+    <div class="icons">
+      <i class="ri-facebook-box-fill" id="fb"></i>
+      <i class="ri-twitter-fill"id="twitter"></i>
+      <i class="ri-youtube-fill" id="yt"></i>
+      <i class="ri-linkedin-box-fill" id="linkedn"></i>
+      <i class="ri-instagram-fill" id="insta"></i>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="awards-section">
+  <img src="https://c.ekstatic.net/ecl/logos/awards/apex-world-class-airline.svg?h=TUKEalKMnvKQogINjvDRqQ" width="250px">
+  <img src="https://c.ekstatic.net/ecl/logos/awards/fgfa-star.svg?h=Za6v2MGXyMZnknGkPgla4Q" width="250px">
+  <img src="https://c.ekstatic.net/ecl/logos/awards/skytrax-badge-2019.svg?h=1fb76e074d973bfc22470adad6d5cae0" width="250px">
+</div><br>
+<hr class="line1">
+<br><br>
+
+<div>
+  <ul class="lastsection">
+    <li><a href="">Accessibility Statement</a></li>
+    <li><a href="">Contact us</a></li>
+    <li><a href="">Privacy Policy</a></li>
+    <li><a href="">Terms and conditions</a></li>
+    <li><a href="">Cookie Policy</a></li>
+    <li><a href="">Cybersecurity</a></li>
+    <li><a href="">Modernslavery Act transparency statement</a></li>
+    <li><a href="">Sitemap</a></li>
+  </ul>
+<p class="copyright">© 2023 The Emirates Group. All Rights Reserved.</p>
+<div class="logo"></div>
+<img src="https://c.ekstatic.net/ecl/logos/emirates/emirates-logo-badge.svg?h=d-52wmsnqryhi7L83BAKpg" class="emirates-logo">
+</div>
+</div>
+<!-- -----------------------------------company details mobile view----------------------------------------------------------------- -->
+<div class="company-mob">
+  <button class="about-btn">About us<span class="arrow-icon"><i class="ri-arrow-down-s-line"></i></span></button>
+<div class="about-us">
+  <ul>
+    <li><a href="">About us</a></li>
+    <li><a href="">Carrers</a></li>
+    <li><a href="">Media Center</a></li>
+    <li><a href="">Our planet</a></li>
+    <li><a href="">Our people</a></li>
+    <li><a href="">Our communities</a></li>
+  </ul>
+</div>
+<button class="help-btn">Help<span class="arrow-icon"><i class="ri-arrow-down-s-line"></i></span></button>
+<div class="help">
+  <ul>
+    <li><a href="">Help and contact</a></li>
+    <li><a href="">Travel updates</a></li>
+    <li><a href="">Special Assistance</a></li>
+    <li><a href="">Frequently asked questions</a></li>
+  </ul>
+</div>
+<button class="book-btn">Book<span class="arrow-icon"><i class="ri-arrow-down-s-line"></i></span></button>
+<div class="book">
+  <ul>
+    <li><a href="">Book Flights</a></li>
+    <li><a href="">Travel Services</a></li>
+    <li><a href="">Transportation </a></li>
+    <li><a href="">Planning your trip</a></li>
+    <li><a href="">Search for flights</a></li>
+  </ul>
+</div>
+<button class="manage-btn">Manage<span class="arrow-icon"><i class="ri-arrow-down-s-line"></i></span></button>
+<div class="manage">
+  <ul>
+    <li><a href="">Check-in </a></li>
+    <li><a href="">Manage your Booking</a></li>
+    <li><a href="">Chauffeur Drive</a></li>
+    <li><a href="">Flight Status </a></li>
+  </ul>
+</div>
+<button class="before-btn">Before you fly<span class="arrow-icon"><i class="ri-arrow-down-s-line"></i></span></button>
+<div class="before">
+  <ul>
+    <li><a href="">Baggage</a></li>
+    <li><a href="">Visa and Passport information</a></li>
+    <li><a href="">Health</a></li>
+    <li><a href="">Travel information </a></li>
+    <li><a href="">Dubai international </a></li>
+    <li><a href="">To and From the Airport</a></li>
+    <li><a href="">Rules and Notices</a></li>
+  </ul>
+</div>
+<button class="where-btn">where we fly<span class="arrow-icon"><i class="ri-arrow-down-s-line"></i></span></button>
+<div class="where">
+  <ul>
+    <li><a href="">Route map</a></li>
+    <li><a href="">Africa</a></li>
+    <li><a href="">Asia and Pacific</a></li>
+    <li><a href="">Europe </a></li>
+    <li><a href="">The Americas </a></li>
+    <li><a href="">The Middle East</a></li>
+    <li><a href="">Flights to all countries/territories</a></li>
+  </ul>
+</div>
+<button class="exp-btn">Experience<span class="arrow-icon"><i class="ri-arrow-down-s-line"></i></span></button>
+<div class="experience" id="exp">
+  <ul>
+    <li><a href="">Cabin Features</a></li>
+    <li><a href="">Shop Emirates</a></li>
+    <li><a href="">What's on your Flight</a></li>
+    <li><a href="">In-flight Entertainment</a></li>
+    <li><a href="">Dining</a></li>
+    <li><a href="">Our lounges</a></li>
+  </ul>
+</div>
+<button class="loyalty-btn">Loyalty<span class="arrow-icon"><i class="ri-arrow-down-s-line"></i></span></button>
+<div class="loyalty">
+  <ul>
+    <li><a href="">Log in to Emirates Skywards</a></li>
+    <li><a href="">Join Emirates Skywards</a></li>
+    <li><a href="">Our Partners</a></li>
+    <li><a href="">Business Reward Benefits</a></li>
+    <li><a href="">Register your Company</a></li>
+    <li><a href="">Emirates Skywards Programme Rules</a></li>
+    
+  </ul><hr style="color: white;">
+</div>
+<br><br>
+<div class="offer" >
+  <ul id="offer">
+    <li><a href="">Save with our latest fares and offers.</a></li>
+    <li><a href="">Unsubscribe or change your preferences</a></li><br>
+    <li><input type="text"placeholder="&nbsp; Email address" style="width:97%;height:40px;"></li>
+    <li class="btn1"><input type="button" value="Subscribe" class="sub-btn"></li> <br>
+    <li><a href="" class="details">For details on how we use your information, please see our <span class="uline">privacy policy.</span></a></li>  
+  </ul>
+</div>
+<br>
+<div class="Application" id="app">
+  <ul>
+    <li id="flight"><a href="">Book and manage your flights on the go.</a></li><br><br>
+    <li id="apple"><a href=""><img src="https://c.ekstatic.net/ecl/logos/appstore/apple-en.svg?h=FJJxsKPmgHqgUIyQclfJDQ"></a></li>
+    <li class="gplay" id="google"><a href=""><img src="https://c.ekstatic.net/ecl/logos/appstore/google-en.svg?h=cmeirryR6eVLHItt4HLLeQ"></a></li>
+  </ul>
+</div>
+<br>
+<div class="connect">
+  <ul>
+    <li><a href="" id="app">Share your Emirates experience.</a></li>
+  </ul>
+  <div class="icons" id="icons">
+    <i class="ri-facebook-box-fill" id="fb"></i>
+    <i class="ri-twitter-fill"id="twitter"></i>
+    <i class="ri-youtube-fill" id="yt"></i>
+    <i class="ri-linkedin-box-fill" id="linkedn"></i>
+    <i class="ri-instagram-fill" id="insta"></i>
+  </div>
+</div><br>
+<div id="awards-section">
+  <img src="https://c.ekstatic.net/ecl/logos/awards/apex-world-class-airline.svg?h=TUKEalKMnvKQogINjvDRqQ" width="250px"><br><br>
+  <img src="https://c.ekstatic.net/ecl/logos/awards/fgfa-star.svg?h=Za6v2MGXyMZnknGkPgla4Q" width="250px"><br><br>
+  <img src="https://c.ekstatic.net/ecl/logos/awards/skytrax-badge-2019.svg?h=1fb76e074d973bfc22470adad6d5cae0" width="250px">
+</div><br>
+<hr style="color: white;">
+
+<ul id="app">
+  <li><a href="">Accessibility Statement</a></li>
+  <li><a href="">Contact us</a></li>
+  <li><a href="">Privacy Policy</a></li>
+  <li><a href="">Terms and conditions</a></li>
+  <li><a href="">Cookie Policy</a></li>
+  <li><a href="">Cybersecurity</a></li>
+  <li><a href="">Modernslavery Act transparency statement</a></li>
+  <li><a href="">Sitemap</a></li>
+</ul><br>
+<p id="copyright">© 2023 The Emirates Group. All Rights <br>Reserved.</p>
+<div class="logo1"></div>
+<img src="https://c.ekstatic.net/ecl/logos/emirates/emirates-logo-badge.svg?h=d-52wmsnqryhi7L83BAKpg" class="emirates-logo1"><br>
+</div>
+</div>
+</body>
+</html>
