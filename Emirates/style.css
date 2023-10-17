@@ -1173,4 +1173,7 @@ line-height: 30px;
         margin-left: 30px;
         border: 1px solid;
     }
+    #btn1{
+        width: 16%;
+    }
 }
