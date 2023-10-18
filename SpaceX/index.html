@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" href="/remixicon/remixicon.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- ------------------------------------------------------navbar-------------------------------------------------------------------- -->
+  <header class="navbar">
+    <svg version="1.1" x="0px" y="0px" viewBox="0 0 400 50" alt="SpaceX Logo" class="logo">
+        <title>SpaceX Logo</title>
+        <g class="letter_s">
+          <path class="fill-white" d="M37.5,30.5H10.9v-6.6h34.3c-0.9-2.8-3.8-5.4-8.9-5.4H11.4c-5.7,0-9,2.1-9,6.7v4.9c0,4,3.4,6.3,8.4,6.3h26.9v7H1.5
+          c0.9,3.8,3.8,5.8,9,5.8h27.1c5.7,0,8.5-2.2,8.5-6.9v-4.9C46.1,33.1,42.8,30.8,37.5,30.5z"></path>
+        </g>
+        <g class="letter_p">
+          <path class="fill-white" d="M91.8,18.6H59v30.7h9.3V37.5h24.2c6.7,0,10.4-2.3,10.4-7.7v-3.4C102.8,21.4,98.6,18.6,91.8,18.6z M94.8,28.4
+          c0,2.2-0.4,3.4-4,3.4H68.3l0.1-8h22c4,0,4.5,1.2,4.5,3.3V28.4z"></path>
+        </g>
+        <g class="letter_a">
+          <polygon class="fill-white" points="129.9,17.3 124.3,24.2 133.8,37.3 114,37.3 109.1,42.5 137.7,42.5 142.6,49.3 153.6,49.3 	"></polygon>
+        </g>
+        <g class="letter_c">
+          <path class="fill-white" d="M171.4,23.9h34.8c-0.9-3.6-4.4-5.4-9.4-5.4h-26c-4.5,0-8.8,1.8-8.8,6.7v17.2c0,4.9,4.3,6.7,8.8,6.7h26.3
+          c6,0,8.1-1.7,9.1-5.8h-34.8V23.9z"></path>
+        </g>
+        <g class="letter_e">
+          <polygon class="fill-white" points="228.3,43.5 228.3,34.1 247,34.1 247,28.9 218.9,28.9 218.9,49.3 260.4,49.3 260.4,43.5 	"></polygon>
+          <rect class="fill-white" x="219.9" y="18.6" width="41.9" height="5.4"></rect>
+        </g>
+        <g class="letter_x">
+          <path class="fill-white" d="M287.6,18.6H273l17.2,12.6c2.5-1.7,5.4-3.5,8-5L287.6,18.6z"></path>
+          <path class="fill-white" d="M308.8,34.3c-2.5,1.7-5,3.6-7.4,5.4l13,9.5h14.7L308.8,34.3z"></path>
+        </g>
+        <g class="letter_swoosh">
+          <path class="fill-white" d="M399,0.7c-80,4.6-117,38.8-125.3,46.9l-1.7,1.6h14.8C326.8,9.1,384.3,2,399,0.7L399,0.7z"></path>
+        </g>
+      </svg>
+
+
+      <ul>
+        <li><a href="https://www.spacex.com/vehicles/falcon-9/" class="nav">FALCON 9</a></li>
+        <li><a href="https://www.spacex.com/vehicles/falcon-heavy/"class="nav">FALCON HEAVY</a></li>
+        <li><a href="https://www.spacex.com/vehicles/dragon/"class="nav">DRAGON</a></li>
+        <li><a href="https://www.spacex.com/vehicles/starship/"class="nav">STARSHIP</a></li>
+        <li><a href="https://www.spacex.com/humanspaceflight/"class="nav">HUMAN SPACEFLIGHT</a></li>
+        <li><a href="https://www.spacex.com/rideshare/"class="nav">RIDESHARE</a></li>
+        <li><a href="https://www.spacex.com/starshield/"class="nav">STARSHIELD</a></li>
+        <li><a href="https://www.starlink.com/"class="nav">STARLINK</a></li>
+        <li><a href="https://shop.spacex.com/" class="nav">SHOP</a></li>  
+    </ul>
+
+      <nav role='navigation'>
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span style="background-color: white;"></span>
+          <span style="background-color: white;"></span>
+          <span style="background-color: white;"></span>
+          <ul id="menu">
+            <a href="https://www.spacex.com/mission/" class="menu"><li>MISSION</li></a><hr>
+            <a href="https://www.spacex.com/launches/" class="menu"><li>LAUNCHES</li></a><hr>
+            <a href="https://www.spacex.com/careers/" class="menu"><li>CAREERS</li></a><hr>
+            <a href="https://www.spacex.com/updates/" class="menu"><li>UPDATES</li></a><hr>
+            <a href="https://shop.spacex.com/" class="menu"><li>SHOP</li></a><hr>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- ---------------------navbar  mobile -------------------------------------------------------------------------------->
+
+      <nav role='navigation1'>
+        <div id="menuToggle1">
+          <input type="checkbox" />
+          <span style="background-color: white;"></span>
+          <span style="background-color: white;"></span>
+          <span style="background-color: white;"></span>
+          <ul id="menu">
+            <a href="https://www.spacex.com/vehicles/falcon-9/" class="menu"><li>FALCON 9</li></a><hr>
+            <a href="https://www.spacex.com/vehicles/falcon-heavy/" class="menu"><li class="falcon">FALCON HEAVY</li></a><hr>
+            <a href="https://www.spacex.com/vehicles/dragon/" class="menu"><li>DRAGON</li></a><hr>
+            <a href="https://www.spacex.com/vehicles/starship/" class="menu"><li>STARSHIP</li></a><hr>
+            <a href="https://www.spacex.com/humanspaceflight/" class="menu"><li class="mob-text">HUMAN SPACEFLIGHT</li></a><hr>
+            <a href="https://www.spacex.com/rideshare/" class="menu"><li class="rideshare">RIDESHARE</li></a><hr>
+            <a href="https://www.spacex.com/starshield/" class="menu"><li class="rideshare">STARSHIELD</li></a><hr>
+            <a href="https://www.starlink.com/" class="menu"><li>STARLINK</li></a><hr>
+            <a href="https://www.spacex.com/mission/" class="menu"><li>MISSION</li></a><hr>
+            <a href="https://www.spacex.com/launches/" class="menu"><li class="rideshare">LAUNCHES</li></a><hr>
+            <a href="https://www.spacex.com/careers/" class="menu"><li>CAREERS</li></a><hr>
+            <a href="https://www.spacex.com/updates/" class="menu"><li>UPDATES</li></a><hr>
+            <a href="https://shop.spacex.com/" class="menu"><li>SHOP</li></a><hr>
+          </ul>
+        </div>
+      </nav>
+
+        <!----------------------------------------------navbar tablet-----------------------------------------------------  -->
+        <nav role='navigation2'>
+            <div id="menuToggle2">
+              <input type="checkbox" />
+              <span style="background-color: white;"></span>
+              <span style="background-color: white;"></span>
+              <span style="background-color: white;"></span>
+              <ul id="menu">
+                <a href="https://www.spacex.com/vehicles/falcon-9/" class="menu"><li>FALCON 9</li></a><hr>
+                <a href="https://www.spacex.com/vehicles/falcon-heavy/" class="menu"><li class="falcon">FALCON HEAVY</li></a><hr>
+                <a href="https://www.spacex.com/vehicles/dragon/" class="menu"><li>DRAGON</li></a><hr>
+                <a href="https://www.spacex.com/vehicles/starship/" class="menu"><li>STARSHIP</li></a><hr>
+                <a href="https://www.spacex.com/humanspaceflight/" class="menu"><li class="mob-text">HUMAN SPACEFLIGHT</li></a><hr>
+                <a href="https://www.spacex.com/rideshare/" class="menu"><li class="rideshare">RIDESHARE</li></a><hr>
+                <a href="https://www.spacex.com/starshield/" class="menu"><li class="rideshare">STARSHIELD</li></a><hr>
+                <a href="https://www.starlink.com/" class="menu"><li>STARLINK</li></a><hr>
+                <a href="https://www.spacex.com/mission/" class="menu"><li>MISSION</li></a><hr>
+                <a href="https://www.spacex.com/launches/" class="menu"><li class="rideshare">LAUNCHES</li></a><hr>
+                <a href="https://www.spacex.com/careers/" class="menu"><li>CAREERS</li></a><hr>
+                <a href="https://www.spacex.com/updates/" class="menu"><li>UPDATES</li></a><hr>
+                <a href="https://shop.spacex.com/" class="menu"><li>SHOP</li></a><hr>
+              </ul>
+            </div>
+          </nav>
+          <!-- -------------------------------------Larger Tablets--------------------------------------------------- -->
+          <nav role='navigation3'>
+            <div id="menuToggle3">
+              <input type="checkbox" />
+              <span style="background-color: white;"></span>
+              <span style="background-color: white;"></span>
+              <span style="background-color: white;"></span>
+              <ul id="menu">
+                <a href="https://www.spacex.com/vehicles/falcon-9/" class="menu"><li>FALCON 9</li></a><hr>
+                <a href="https://www.spacex.com/vehicles/falcon-heavy/" class="menu"><li class="falcon">FALCON HEAVY</li></a><hr>
+                <a href="https://www.spacex.com/vehicles/dragon/" class="menu"><li>DRAGON</li></a><hr>
+                <a href="https://www.spacex.com/vehicles/starship/" class="menu"><li>STARSHIP</li></a><hr>
+                <a href="https://www.spacex.com/humanspaceflight/" class="menu"><li class="mob-text">HUMAN SPACEFLIGHT</li></a><hr>
+                <a href="https://www.spacex.com/rideshare/" class="menu"><li class="rideshare">RIDESHARE</li></a><hr>
+                <a href="https://www.spacex.com/starshield/" class="menu"><li class="rideshare">STARSHIELD</li></a><hr>
+                <a href="https://www.starlink.com/" class="menu"><li>STARLINK</li></a><hr>
+                <a href="https://www.spacex.com/mission/" class="menu"><li>MISSION</li></a><hr>
+                <a href="https://www.spacex.com/launches/" class="menu"><li class="rideshare">LAUNCHES</li></a><hr>
+                <a href="https://www.spacex.com/careers/" class="menu"><li>CAREERS</li></a><hr>
+                <a href="https://www.spacex.com/updates/" class="menu"><li>UPDATES</li></a><hr>
+                <a href="https://shop.spacex.com/" class="menu"><li>SHOP</li></a><hr>
+              </ul>
+            </div>
+          </nav>  
+  
+  
+  
+  
+        </header>
+  <!-- ------------------------------------------text inside image1-------------------------------------------------------------- -->
+   <div class="text"> 
+    <h2>UPCOMING LAUNCH</h2>
+    <h1>STARLINK MISSION</h1> 
+    <input type="button"value="LEARN MORE" class="btn"> 
+  </div>
+ <!-- ----------------------------------------------image1 banner---------------------------------------------------------------------- -->
+ <div class="image-container">
+    <img src="https://sxcontent9668.azureedge.us/cms-assets/assets/LAUNCHES_Starlink_SLC_40_Desktop_ad41fa5a42.jpg" class="img1">
+ </div>
+ <!-- ------------------------------------------------text2 inside image2-------------------------------------------------------------- -->
+
+<div class="text1">
+    <h2>RECENT LAUNCH</h2>
+    <h1>PSYCHE MISSION</h1> 
+    <input type="button"value="LEARN MORE" class="btn">
+</div>
+<!-- ----------------------------------------------------image2 banner----------------------------------------------------------------- -->
+<div class="image2-container">
+    <img src="https://sxcontent9668.azureedge.us/cms-assets/assets/Psyche_outside39abmound_IMG_8486_desktop_f5072ad69b.jpg" class="img2">
+</div>
+<!-- ---------------------------------------------------text3 inside image3------------------------------------------------------------ -->
+<div class="text2">
+    <h2>RECENT LAUNCH</h2>
+    <h1>STARLINK MISSION</h1> 
+    <input type="button"value="LEARN MORE" class="btn">
+</div>
+
+<!-- ----------------------------------------------------image3 banner------------------------------------------------------------------- -->
+<div class="image3-container">
+    <img src="https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_22_101323_DSC_6121_desktop_fd6c6de4b5.jpg" class="img2">
+</div>
+<!-- ---------------------------------------------------text4 inside image4------------------------------------------------------------ -->
+<div class="text3">
+    <h2>COMPLETED MISSION</h2>
+    <h1>DRAGON AND CREW-6 RETURN TO EARTH</h1> 
+    <input type="button"value="LEARN MORE" class="btn">
+</div>
+<!-- ----------------------------------------------------image4 banner------------------------------------------------------------------- -->
+<div class="image4-container">
+    <img src="https://sxcontent9668.azureedge.us/cms-assets/assets/Crew_6_Desktop_9857f5c2f0.jpg" class="img2">
+</div>
+<!-- ---------------------------------------------------text5 inside image5------------------------------------------------------------ -->
+<div class="text4">
+    <h2 style="font-size: 30px;">STARSHIP FLIGHT TEST</h2>
+    <input type="button"value="LEARN MORE" class="btn">
+</div>
+<!-- ----------------------------------------------------image5 banner------------------------------------------------------------------- -->
+<div class="image5-container">
+    <img src="https://sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg" class="img2">
+</div>
+<!-- ----------------------------------------------------footer section----------------------------------------------------------------- -->
+<footer><br>
+    <div class="about">
+        <ul>
+            <li><a href="" class="spacex">SPACEX © 2023</a></li>
+            <li><a href="https://www.spacex.com/media/privacy_policy_spacex.pdf" class="spacex">PRIVACY POLICY</a></li>
+            <li><a href="https://www.spacex.com/supplier/" class="spacex">SUPPLIERS</a></li>
+        </ul>
+    </div>
+    <div class="about-mobile">
+        <ul>
+            <li><a href="" class="spacex" id="spacex">SPACEX © 2023</a></li>
+        </ul>
+        <ul class="privacy1">
+            <li><a href="https://www.spacex.com/media/privacy_policy_spacex.pdf" class="spacex" id="privacy">PRIVACY POLICY</a></li>
+            <li><a href="https://www.spacex.com/supplier/" class="spacex">SUPPLIERS</a></li>
+        </ul>
+    </div>
+</footer>
+ <!-- ---------------------------------------------------jquery code ------------------------------------------------------------------- -->
+<script>
+      $(document).ready(function() {
+     const menuToggle = $('#menuToggle1');
+     const textDiv = $('.text, .text1, .text2, .text3, .text4');
+
+     menuToggle.click(function() {
+         textDiv.toggle();
+     });
+});
+</script>
+</body>
+</html>
+
+<!-- ----------------------------------------------------------end------------------------------------------------------------------- -->
