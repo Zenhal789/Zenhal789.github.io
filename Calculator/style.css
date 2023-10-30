@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color: #000;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+.calc{
+    height: 550px;
+    width: 316px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+#output{
+    height: 62px;
+    width: 291px;
+    left: 9px;
+    top: 8px;
+    position: relative;
+    text-align: right;
+    font-size: 35px;
+}
+#sin ,#cos ,#tan ,#log{
+    margin-left: 22px;
+    margin-top: 27px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.clear ,#ce ,#percent ,#add{
+    margin-left: 22px;
+    margin-top: 27px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#add{
+    background-color: red;
+}
+#seven ,#eight ,#nine ,#multiply{
+    margin-left: 22px;
+    margin-top: 27px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#multiply{
+    background-color: rgb(194, 194, 25);
+}
+#four ,#five ,#six ,#sub{
+    margin-left: 22px;
+    margin-top: 27px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#sub{
+    background-color: palevioletred;
+}
+
+#one ,#two ,#three ,#divide{
+    margin-left: 22px;
+    margin-top: 27px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#divide{
+    background-color: green;
+}
+
+#dot ,#zero ,#exp ,#equal{
+    margin-left: 22px;
+    margin-top: 27px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#equal{
+    background-color: cyan;
+}
